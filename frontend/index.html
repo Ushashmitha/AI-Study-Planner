@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Planner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <div class="logo-icon">🧠</div>
+
+                <div>
+                    <h2>AI Study</h2>
+                    <span>Planner</span>
+                </div>
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-item active">
+                    <span>🏠</span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>📚</span>
+                    Subjects
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>📅</span>
+                    Exams
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>🗓️</span>
+                    Planner
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>📊</span>
+                    Progress
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>✨</span>
+                    AI Advisor
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="#" class="nav-item">
+                    <span>⚙️</span>
+                    Settings
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>🚪</span>
+                    Logout
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="topbar">
+
+                <div>
+                    <p class="welcome-small">Welcome back</p>
+                    <h1>Hello, Student 👋</h1>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <strong>Student</strong>
+                        <span>Student Account</span>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <!-- Dashboard -->
+            <section class="dashboard">
+
+                <!-- Statistics -->
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <div class="stat-icon">📚</div>
+
+                        <div>
+                            <span>Total Subjects</span>
+                            <h2>5</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+
+                        <div>
+                            <span>Overall Progress</span>
+                            <h2>68%</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="stat-card">
+                        <div class="stat-icon">⏱️</div>
+
+                        <div>
+                            <span>Today's Study</span>
+                            <h2>2.5h</h2>
+                        </div>
+                    </div>
+
+
+                    <div class="stat-card">
+                        <div class="stat-icon">🔥</div>
+
+                        <div>
+                            <span>Study Streak</span>
+                            <h2>7 days</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Main Dashboard Grid -->
+                <div class="dashboard-grid">
+
+
+                    <!-- Upcoming Exams -->
+                    <section class="card">
+
+                        <div class="card-header">
+
+                            <div>
+                                <h2>Upcoming Exams</h2>
+                                <p>Keep an eye on your deadlines.</p>
+                            </div>
+
+                            <button class="text-button">
+                                View all
+                            </button>
+
+                        </div>
+
+
+                        <div class="exam-list">
+
+                            <div class="exam-item">
+
+                                <div>
+                                    <strong>Artificial Intelligence</strong>
+                                    <span>September 15</span>
+                                </div>
+
+                                <div class="days urgent">
+                                    4 days
+                                </div>
+
+                            </div>
+
+
+                            <div class="exam-item">
+
+                                <div>
+                                    <strong>Data Mining</strong>
+                                    <span>September 20</span>
+                                </div>
+
+                                <div class="days warning">
+                                    9 days
+                                </div>
+
+                            </div>
+
+
+                            <div class="exam-item">
+
+                                <div>
+                                    <strong>Computer Networks</strong>
+                                    <span>September 25</span>
+                                </div>
+
+                                <div class="days normal">
+                                    14 days
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- Today's Focus -->
+                    <section class="card focus-card">
+
+                        <div class="card-header">
+
+                            <div>
+                                <h2>Today's Focus</h2>
+                                <p>Your highest priority topics.</p>
+                            </div>
+
+                            <span class="ai-badge">
+                                ✨ AI
+                            </span>
+
+                        </div>
+
+
+                        <div class="focus-topic">
+
+                            <div class="topic-number">
+                                1
+                            </div>
+
+                            <div class="topic-info">
+                                <strong>A* Search</strong>
+                                <span>Artificial Intelligence</span>
+
+                                <div class="priority-bar">
+                                    <div class="priority-progress"></div>
+                                </div>
+
+                                <small>High Priority</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="focus-topic">
+
+                            <div class="topic-number">
+                                2
+                            </div>
+
+                            <div class="topic-info">
+                                <strong>AO* Search</strong>
+                                <span>Artificial Intelligence</span>
+
+                                <div class="priority-bar">
+                                    <div class="priority-progress second"></div>
+                                </div>
+
+                                <small>High Priority</small>
+                            </div>
+
+                        </div>
+
+
+                        <button class="primary-button" id="generatePlanButton">
+                            ✨ Generate Today's Plan
+                        </button>
+
+                    </section>
+
+
+                    <!-- Progress -->
+                    <section class="card progress-card">
+
+                        <div class="card-header">
+
+                            <div>
+                                <h2>Subject Progress</h2>
+                                <p>Your current preparation level.</p>
+                            </div>
+
+                            <button class="text-button">
+                                Details
+                            </button>
+
+                        </div>
+
+
+                        <div class="progress-item">
+
+                            <div class="progress-label">
+                                <span>Artificial Intelligence</span>
+                                <strong>60%</strong>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div style="width: 60%;"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="progress-item">
+
+                            <div class="progress-label">
+                                <span>Data Mining</span>
+                                <strong>80%</strong>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div style="width: 80%;"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="progress-item">
+
+                            <div class="progress-label">
+                                <span>Computer Networks</span>
+                                <strong>50%</strong>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div style="width: 50%;"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="progress-item">
+
+                            <div class="progress-label">
+                                <span>Software Engineering</span>
+                                <strong>70%</strong>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div style="width: 70%;"></div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- AI Recommendation -->
+                    <section class="card ai-card">
+
+                        <div class="ai-title">
+                            <span class="ai-symbol">✨</span>
+
+                            <div>
+                                <h2>AI Recommendation</h2>
+                                <p>Personalized advice</p>
+                            </div>
+                        </div>
+
+
+                        <p class="ai-message">
+                            Your Artificial Intelligence exam is approaching
+                            and A* Search has low completion and confidence.
+                            Consider spending 45–60 minutes on it today.
+                        </p>
+
+
+                        <button class="secondary-button">
+                            View AI Advisor
+                        </button>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
